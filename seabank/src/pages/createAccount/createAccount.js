@@ -34,7 +34,10 @@ const CreateAccount = () =>{
                   
                   <form role="form" >
                     
-                    
+                  <div class="input-group input-group-outline mb-3">
+                      <label class="form-label">ID Number</label>
+                      <input type="Number" id="register-fName" class="form-control"/>
+                    </div>
                     <div class="input-group input-group-outline mb-3">
                       <label class="form-label">Full Name</label>
                       <input type="text" id="register-fName" class="form-control"/>
