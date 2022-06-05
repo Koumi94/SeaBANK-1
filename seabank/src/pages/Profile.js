@@ -3,98 +3,24 @@
 import React, {  } from "react";
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import AsideUser from "../components/asideUser/aside";
+import Navbar from "../components/navbar-recherche/navbar";
 
+//import image
+import ImageUser from '../../src/assets/img/bruce-mars.jpg'
+import Aside from "../components/aside/aside";
 
-import "../assets/img/apple-icon.png";
-import "../assets/img/favicon.png";
-<title>
-  Sea BANK
-</title>
-// <!--     Fonts and icons     -->
-import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700"
-// <!-- Nucleo Icons -->
-import "/dashboard/assets/css/nucleo-icons.css" ;
-import "/dashboard/assets/css/nucleo-svg.css";
-
-import "https://kit.fontawesome.com/42d5adcbca.js";
-// <!-- Material Icons -->
-import "https://fonts.googleapis.com/icon?family=Material+Icons+Round";
-// <!-- CSS Files -->
-import "/dashboard/assets/css/material-dashboard.css" ;
-// <!--   Core JS Files   -->
-
-import "../assets/js/core/popper.min.js";
-import"../assets/js/core/bootstrap.min.js";
-import"../assets/js/plugins/perfect-scrollbar.min.js";
-import"../assets/js/plugins/smooth-scrollbar.min.js";
-  
 const Profile = () =>{
   return (
 
 
 
-    <body class="g-sidenav-show bg-gray-200">
-  <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
-    <div class="sidenav-header">
-      <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-      <a class="navbar-brand m-0" href=" " target="_blank">
-        <img src="./assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo"/>
-        <span class="ms-1 font-weight-bold text-white">Sea Bank</span>
-      </a>
-    </div>
-    <hr class="horizontal light mt-0 mb-2"/>
-    <div class="collapse navbar-collapse  w-auto  max-height-vh-100" id="sidenav-collapse-main">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link text-white " href="../dashboard.html">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">dashboard</i>
-            </div>
-            <span class="nav-link-text ms-1">Dashboard</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="./Transfer.html">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">table_view</i>
-            </div>
-            <span class="nav-link-text ms-1">transfer</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white  " href="./transactions.html">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">receipt_long</i>
-            </div>
-            <span class="nav-link-text ms-1">Transactions</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white active bg-gradient-primary" href="./profile.html">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">person</i>
-            </div>
-            <span class="nav-link-text ms-1">Profile</span>
-          </a>
-        </li>
-
-      </ul>
-    </div>
-    <div class="sidenav-footer position-absolute w-100 bottom-0 ">
-      <div class="mx-3">
-        <a class="btn bg-gradient-primary mt-4 w-100" href="./sign-in.html" type="button">log Out</a>
-      </div>
-    </div>
-  </aside>
+    <div class="g-sidenav-show bg-gray-200">
+  <Aside/>
   <div class="main-content position-relative max-height-vh-100 h-100">
-    {/* <!-- Navbar --> */}
-    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
+  <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
       <div class="container-fluid py-1 px-3">
         <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Profile</li>
-          </ol>
           <h6 class="font-weight-bolder mb-0">Profile</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
@@ -118,16 +44,16 @@ const Profile = () =>{
         </div>
       </div>
     </nav>
-    {/* <!-- End Navbar --> */}
+  <div class="container-fluid py-4">
     <div class="container-fluid px-2 px-md-4">
-      <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');">
+      <div class="page-header min-height-300 border-radius-xl mt-4" style={{backgroundImage: `url(https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80)` }}>
         {/* <!-- <span class="mask  bg-gradient-primary  opacity-6"></span> --> */}
       </div>
       <div class="card card-body mx-3 mx-md-4 mt-n6">
         <div class="row gx-4 mb-2">
           <div class="col-auto">
             <div class="avatar avatar-xl position-relative">
-              <img src="../assets/img/bruce-mars.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm"/>
+              <img src={ImageUser} alt="profile_image" class="w-100 border-radius-lg shadow-sm"/>
             </div>
           </div>
           <div class="col-auto my-auto">
@@ -183,10 +109,9 @@ const Profile = () =>{
         </div>
       </div>
     </div>
-
+    </div>
   </div>
-
-  </body>
+  </div>
 
   )
 }

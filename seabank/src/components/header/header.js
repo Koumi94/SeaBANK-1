@@ -10,11 +10,11 @@ const Header = ()=>{
 
        <header>
             <div>
-                <div class="loader">
+                {/* <div class="loader">
                     <div class="spinner-border text-primary" role="status">
                         <span class="sr-only">Loading...</span>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div class="site-wrap">
 
@@ -68,7 +68,7 @@ const Header = ()=>{
                             </div>
 
 
-                            <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#"
+                            <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style={{position: 'relative; top: 3px'}}><a href="#"
                                 class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
 
                         </div>

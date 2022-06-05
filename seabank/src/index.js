@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
+
 //IMPORT CSS
+// import "../src/assets/css/aos.css";
 import '../src/assets/css/style.css';
 
 import "../src/assets/css/bootstrap.min.css";
@@ -17,19 +20,21 @@ import "../src/assets/css/jquery.fancybox.min.css";
 
 import "../src/assets/css/bootstrap-datepicker.css";
 
-import "../src/assets/css/style.css"
+import "../src/assets/css/nucleo-svg.css";
+import "../src/assets/css/material-dashboard.css";
+import "../src/assets/css/nucleo-icons.css";
 
 
-import "../src/assets/css/aos.css";
+import Apple_icon from "../src/assets/img/apple-icon.png";
 
-import "../src/assets/css/style.css";
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+     <BrowserRouter>
+     <App />
+     </BrowserRouter>
+   
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

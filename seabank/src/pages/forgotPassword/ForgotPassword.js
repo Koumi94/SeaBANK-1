@@ -5,22 +5,6 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from "react";
 
 
-import "/seabank/src/assets/css/material-dashboard.css?v=3.0.2";
-import "./assets/img/apple-icon.png";
-  import "./assets/img/favicon.png";
-  // <!--     Fonts and icons     -->
-import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700";
-  // <!-- Nucleo Icons -->
-  import "/seabank/src/assets/css/nucleo-icons.css";
-  
-  import "/seabank/src/assets/css/ucleo-svg.css";
-  // <!-- Font Awesome Icons -->
-  import "https://kit.fontawesome.com/42d5adcbca.js";
-  // <!-- Material Icons -->
-  import "https://fonts.googleapis.com/icon?family=Material+Icons+Round";
-  // <!-- CSS Files -->
-  import "/seabank/src/assets/css/material-dashboard.css";
-//dd
 const ForgotPassword = () =>{
   return (
 
@@ -33,9 +17,9 @@ const ForgotPassword = () =>{
         {/* <!-- Navbar --> */}
         <nav class="navbar navbar-expand-lg blur border-radius-xl top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid ps-2 pe-0">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="/index.html">
+            <Link class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " to='/acceuil'>
               Sea BANK
-            </a>
+            </Link>
           </div>
         </nav>
         {/* <!-- End Navbar --> */}
@@ -43,7 +27,7 @@ const ForgotPassword = () =>{
     </div>
   </div>
   <main class="main-content  mt-0">
-    <div class="page-header align-items-start min-vh-100" style="background-image: url('https://images.unsplash.com/photo-1497294815431-9365093b7331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');">
+    <div class="page-header align-items-start min-vh-100" style={{backgroundImage: `url(https://images.unsplash.com/photo-1497294815431-9365093b7331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80)`}} >
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container my-auto">
         <div class="row">
