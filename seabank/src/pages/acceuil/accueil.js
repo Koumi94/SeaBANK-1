@@ -48,7 +48,7 @@ const Accueil = () =>{
           <div className="col-md-10 mt-lg-5 text-center">
             <div className="single-text owl-carousel">
               <div className="slide">
-                <h1 class="text-uppercase" data-aos="fade-up">Banking Solutions</h1>
+                <h1 className="text-uppercase" data-aos="fade-up">Banking Solutions</h1>
                 <p className="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
                   adipisicing elit. Provident cupiditate suscipit, magnam libero velit esse sapiente officia inventore!
                 </p>
@@ -89,7 +89,7 @@ const Accueil = () =>{
       </div>
 
 
-      <a href="#next" class="mouse smoothscroll">
+      <a href="#next" className="mouse smoothscroll">
         <span className="mouse-icon">
           <span className="mouse-wheel"></span>
         </span>
@@ -102,7 +102,7 @@ const Accueil = () =>{
         <div className="row">
           <div className="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
             <figure className="circle-bg">
-              <img src={BackgroundAbout} alt="Free Website Template by Free-Template.co" class="img-fluid"/>
+              <img src={BackgroundAbout} alt="Free Website Template by Free-Template.co" className="img-fluid"/>
             </figure>
           </div>
           <div className="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
@@ -138,24 +138,24 @@ const Accueil = () =>{
     </div>
 
 
-    <div class="site-section cta-big-image" id="about-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">About Us</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing
+    <div className="site-section cta-big-image" id="about-section">
+      <div className="container">
+        <div className="row mb-5 justify-content-center">
+          <div className="col-md-8 text-center">
+            <h2 className="section-title mb-3" data-aos="fade-up" data-aos-delay="">About Us</h2>
+            <p className="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Minus minima neque tempora reiciendis.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-            <figure class="circle-bg">
-              <img src={BackgroundPerson} alt="Free Website Template by Free-Template.co" class="img-fluid"/>
+        <div className="row">
+          <div className="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure className="circle-bg">
+              <img src={BackgroundPerson} alt="Free Website Template by Free-Template.co" className="img-fluid"/>
             </figure>
           </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
 
-            <h3 class="text-black mb-4">We Solve Your Financial Problem</h3>
+            <h3 className="text-black mb-4">We Solve Your Financial Problem</h3>
 
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
               blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
@@ -171,88 +171,88 @@ const Accueil = () =>{
     </div>
 
 
-    <section class="site-section border-bottom" id="team-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Meet Team</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their place and
+    <section className="site-section border-bottom" id="team-section">
+      <div className="container">
+        <div className="row mb-5 justify-content-center">
+          <div className="col-md-8 text-center">
+            <h2 className="section-title mb-3" data-aos="fade-up" data-aos-delay="">Meet Team</h2>
+            <p className="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their place and
               supplies it with the necessary regelialia.</p>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
 
 
-          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
-            <div class="team-member">
+          <div className="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div className="team-member">
               <figure>
-                <ul class="social">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                <ul className="social">
+                  <li><a href="#"><span className="icon-facebook"></span></a></li>
+                  <li><a href="#"><span className="icon-twitter"></span></a></li>
+                  <li><a href="#"><span className="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span className="icon-instagram"></span></a></li>
                 </ul>
-                <img src={BackgroundPerson1} alt="Image" class="img-fluid"/>
+                <img src={BackgroundPerson1} alt="Image" className="img-fluid"/>
               </figure>
-              <div class="p-3">
+              <div className="p-3">
                 <h3>Kaiara Spencer</h3>
-                <span class="position">Finance Manager</span>
+                <span className="position">Finance Manager</span>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
+          <div className="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div className="team-member">
               <figure>
-                <ul class="social">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                <ul className="social">
+                  <li><a href="#"><span className="icon-facebook"></span></a></li>
+                  <li><a href="#"><span className="icon-twitter"></span></a></li>
+                  <li><a href="#"><span className="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span className="icon-instagram"></span></a></li>
                 </ul>
-                <img src={BackgroundPerson6} alt="Image" class="img-fluid"/>
+                <img src={BackgroundPerson6} alt="Image" className="img-fluid"/>
               </figure>
-              <div class="p-3">
+              <div className="p-3">
                 <h3>Dave Simpson</h3>
-                <span class="position">Marketing Manager</span>
+                <span className="position">Marketing Manager</span>
               </div>
             </div>
           </div>
 
 
 
-          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
+          <div className="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div className="team-member">
               <figure>
-                <ul class="social">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                <ul className="social">
+                  <li><a href="#"><span className="icon-facebook"></span></a></li>
+                  <li><a href="#"><span className="icon-twitter"></span></a></li>
+                  <li><a href="#"><span className="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span className="icon-instagram"></span></a></li>
                 </ul>
-                <img src={BackgroundPerson8} alt="Image" class="img-fluid"/>
+                <img src={BackgroundPerson8} alt="Image" className="img-fluid"/>
               </figure>
-              <div class="p-3">
+              <div className="p-3">
                 <h3>Kyla Stewart</h3>
-                <span class="position">Accountant</span>
+                <span className="position">Accountant</span>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
-            <div class="team-member">
+          <div className="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div className="team-member">
               <figure>
-                <ul class="social">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                <ul className="social">
+                  <li><a href="#"><span className="icon-facebook"></span></a></li>
+                  <li><a href="#"><span className="icon-twitter"></span></a></li>
+                  <li><a href="#"><span className="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span className="icon-instagram"></span></a></li>
                 </ul>
-                <img src={BackgroundPerson1} alt="Image" class="img-fluid"/>
+                <img src={BackgroundPerson1} alt="Image" className="img-fluid"/>
               </figure>
-              <div class="p-3">
+              <div className="p-3">
                 <h3>Kaiara Spencer</h3>
-                <span class="position">Accountant</span>
+                <span className="position">Accountant</span>
               </div>
             </div>
           </div>
@@ -261,109 +261,109 @@ const Accueil = () =>{
       </div>
     </section>
 
-    <section class="site-section" id="gallery-section" data-aos="fade">
+    <section className="site-section" id="gallery-section" data-aos="fade">
 
 
-      <div class="container">
+      <div className="container">
 
-        <div class="row mb-3">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Gallery</h2>
+        <div className="row mb-3">
+          <div className="col-12 text-center">
+            <h2 className="section-title mb-3">Gallery</h2>
           </div>
         </div>
 
-        <div class="row justify-content-center mb-5">
-          <div id="filters" class="filters text-center button-group col-md-7">
-            <button class="btn btn-primary active" data-filter="*">All</button>
-            <button class="btn btn-primary" data-filter=".web">Events</button>
-            <button class="btn btn-primary" data-filter=".design">Party</button>
-            <button class="btn btn-primary" data-filter=".brand">Holidays</button>
+        <div className="row justify-content-center mb-5">
+          <div id="filters" className="filters text-center button-group col-md-7">
+            <button className="btn btn-primary active" data-filter="*">All</button>
+            <button className="btn btn-primary" data-filter=".web">Events</button>
+            <button className="btn btn-primary" data-filter=".design">Party</button>
+            <button className="btn btn-primary" data-filter=".brand">Holidays</button>
           </div>
         </div>
 
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="#" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image1}/>
+        <div id="posts" className="row no-gutter">
+          <div className="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="#" className="item-wrap fancybox">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image1}/>
             </a>
           </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="./../assets/img/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image2}/>
-            </a>
-          </div>
-
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image3}/>
+          <div className="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="./../assets/img/img_2.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image2}/>
             </a>
           </div>
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+          <div className="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_3.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image3}/>
+            </a>
+          </div>
 
-            <a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image4}/>
+          <div className="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+            <a href="images/img_4.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image4}/>
             </a>
 
           </div>
 
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image5}/>
+          <div className="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_5.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image5}/>
             </a>
           </div>
 
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image1}/>
+          <div className="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_1.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image1}/>
             </a>
           </div>
 
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image2}/>
+          <div className="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_2.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image2}/>
             </a>
           </div>
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image3}/>
+          <div className="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_3.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image3}/>
             </a>
           </div>
 
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image4}/>
+          <div className="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_4.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image4}/>
             </a>
           </div>
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image5}/>
+          <div className="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_5.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image5}/>
             </a>
           </div>
 
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image1}/>
+          <div className="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_1.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image1}/>
             </a>
           </div>
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src={Image2}/>
+          <div className="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_2.jpg" className="item-wrap fancybox" data-fancybox="gallery2">
+              <span className="icon-search2"></span>
+              <img className="img-fluid" src={Image2}/>
             </a>
           </div>
 
@@ -374,53 +374,53 @@ const Accueil = () =>{
     </section>
 
 
-    <section class="site-section">
-      <div class="container">
+    <section className="site-section">
+      <div className="container">
 
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">How It Works</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their place and
+        <div className="row mb-5 justify-content-center">
+          <div className="col-md-7 text-center">
+            <h2 className="section-title mb-3" data-aos="fade-up" data-aos-delay="">How It Works</h2>
+            <p className="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their place and
               supplies it with the necessary regelialia.</p>
           </div>
         </div>
 
-        <div class="row align-items-lg-center">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+        <div className="row align-items-lg-center">
+          <div className="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
 
-            <div class="owl-carousel slide-one-item-alt">
-              <img src={ImageSlide1} alt="Image" class="img-fluid"/>
-              <img src={ImageSlide2} alt="Image" class="img-fluid"/>
-              <img src={ImageSlide3} alt="Image" class="img-fluid"/>
+            <div className="owl-carousel slide-one-item-alt">
+              <img src={ImageSlide1} alt="Image" className="img-fluid"/>
+              <img src={ImageSlide2} alt="Image" className="img-fluid"/>
+              <img src={ImageSlide3} alt="Image" className="img-fluid"/>
             </div>
-            <div class="custom-direction">
-              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#"
-                class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
+            <div className="custom-direction">
+              <a href="#" className="custom-prev"><span><span className="icon-keyboard_backspace"></span></span></a><a href="#"
+                className="custom-next"><span><span className="icon-keyboard_backspace"></span></span></a>
             </div>
 
           </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="owl-carousel slide-one-item-alt-text">
+            <div className="owl-carousel slide-one-item-alt-text">
               <div>
-                <h2 class="section-title mb-3">01. Online Applications</h2>
+                <h2 className="section-title mb-3">01. Online Applications</h2>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
                   paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+                <p><a href="#" className="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
-                <h2 class="section-title mb-3">02. Get an approval</h2>
+                <h2 className="section-title mb-3">02. Get an approval</h2>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
                   paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+                <p><a href="#" className="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
-                <h2 class="section-title mb-3">03. Card delivery</h2>
+                <h2 className="section-title mb-3">03. Card delivery</h2>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
                   paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+                <p><a href="#" className="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
 
             </div>
@@ -431,83 +431,83 @@ const Accueil = () =>{
     </section>
 
 
-    <section class="site-section bg-light" id="contact-section" data-aos="fade">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Contact Us</h2>
+    <section className="site-section bg-light" id="contact-section" data-aos="fade">
+      <div className="container">
+        <div className="row mb-5">
+          <div className="col-12 text-center">
+            <h2 className="section-title mb-3">Contact Us</h2>
           </div>
         </div>
-        <div class="row mb-5">
+        <div className="row mb-5">
 
 
 
-          <div class="col-md-4 text-center">
-            <p class="mb-4">
-              <span class="icon-room d-block h2 text-primary"></span>
+          <div className="col-md-4 text-center">
+            <p className="mb-4">
+              <span className="icon-room d-block h2 text-primary"></span>
               <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
             </p>
           </div>
-          <div class="col-md-4 text-center">
-            <p class="mb-4">
-              <span class="icon-phone d-block h2 text-primary"></span>
+          <div className="col-md-4 text-center">
+            <p className="mb-4">
+              <span className="icon-phone d-block h2 text-primary"></span>
               <a href="#">+1 232 3235 324</a>
             </p>
           </div>
-          <div class="col-md-4 text-center">
-            <p class="mb-0">
-              <span class="icon-mail_outline d-block h2 text-primary"></span>
+          <div className="col-md-4 text-center">
+            <p className="mb-0">
+              <span className="icon-mail_outline d-block h2 text-primary"></span>
               <a href="#">youremail@domain.com</a>
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 mb-5">
+        <div className="row">
+          <div className="col-md-12 mb-5">
 
 
 
-            <form action="#" class="p-5 bg-white">
+            <form action="#" className="p-5 bg-white">
 
-              <h2 class="h4 text-black mb-5">Contact Form</h2>
+              <h2 className="h4 text-black mb-5">Contact Form</h2>
 
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control"/>
+              <div className="row form-group">
+                <div className="col-md-6 mb-3 mb-md-0">
+                  <label className="text-black" for="fname">First Name</label>
+                  <input type="text" id="fname" className="form-control"/>
                 </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control"/>
-                </div>
-              </div>
-
-              <div class="row form-group">
-
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label>
-                  <input type="email" id="email" class="form-control"/>
+                <div className="col-md-6">
+                  <label className="text-black" for="lname">Last Name</label>
+                  <input type="text" id="lname" className="form-control"/>
                 </div>
               </div>
 
-              <div class="row form-group">
+              <div className="row form-group">
 
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label>
-                  <input type="subject" id="subject" class="form-control"/>
+                <div className="col-md-12">
+                  <label className="text-black" for="email">Email</label>
+                  <input type="email" id="email" className="form-control"/>
                 </div>
               </div>
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label>
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control"
+              <div className="row form-group">
+
+                <div className="col-md-12">
+                  <label className="text-black" for="subject">Subject</label>
+                  <input type="subject" id="subject" className="form-control"/>
+                </div>
+              </div>
+
+              <div className="row form-group">
+                <div className="col-md-12">
+                  <label className="text-black" for="message">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="7" className="form-control"
                     placeholder="Write your notes or questions here..."></textarea>
                 </div>
               </div>
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white"/>
+              <div className="row form-group">
+                <div className="col-md-12">
+                  <input type="submit" value="Send Message" className="btn btn-primary btn-md text-white"/>
                 </div>
               </div>
 
